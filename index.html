@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lalitha's portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Lalitha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <img class="hide" src="./Images/cross.png" height="20px" width="20px">
+          </ul>
+          <img class="hide" src="./Images/menu.jpeg" height="20px" width="20px">
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,My name is <span class="purple">Lalitha</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="./PLalithadevi_InternshalaResume (3).pdf">
+              <button class="btns" download>Download Resume</button>
+            </a>
+            <button class="btns"> Visit Github</button>
+
+          </div>
+        </div>
+        <div class="rightSection">
+          <img
+            src="./Images/3d-web-developer-working-on-project-illustration-png.webp"
+          />
+        </div>
+      </section>
+      <hr />
+    </main>
+
+      <!-- About -->
+       <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col1">
+              <img src="./Images/sweety photo.jpg" >
+            </div>
+            <div class="col2">
+              <h1 class="title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Unde, itaque in facilis nisi reprehenderit suscipit tempore quia eum eaque
+                 magni ratione, excepturi cum cumque illo modi a! Iusto, provident facilis.</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Frontend</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>backd</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>Misln</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+                  <li><span>Frontend</span><br>Developer</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <hr/>
+
+      
+       <!-- Services -->
+        <div id="services">
+          <div class="container">
+            <h1 class="title">Services</h1>
+            <div class="services-list">
+              <div>
+                <img src="Images/code1.jpeg" height="40px" width="40px">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Excepturi optio corporis a id animi odit omnis inventore sint quidem 
+                  beatae esse eos explicabo iure, eaque eveniet quia debitis corrupti! Suscipit!</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <img src="Images/code1.jpeg" height="40px" width="40px">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Excepturi optio corporis a id animi odit omnis inventore sint quidem 
+                  beatae esse eos explicabo iure, eaque eveniet quia debitis corrupti! Suscipit!</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <img src="Images/code1.jpeg" height="40px" width="40px">
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Excepturi optio corporis a id animi odit omnis inventore sint quidem 
+                  beatae esse eos explicabo iure, eaque eveniet quia debitis corrupti! Suscipit!</p>
+                <a href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       <hr/>
+
+
+       <!-- Portfolio -->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="./Images/mywork.jpeg">
+                <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>The app connect you to the world.</p>
+                  <a href="#">
+                    <img src="./Images/link1.png">
+                  </a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="./Images/mywork2.jpeg">
+                <div class="layer">
+                  <h3>Music App</h3>
+                  <p>The app connect you to the world.</p>
+                  <a href="#">
+                    <img src="./Images/link1.png">
+                  </a>
+                </div>
+              </div><div class="work">
+                <img src="./Images/mywork3.jpeg">
+                <div class="layer">
+                  <h3>Video App</h3>
+                  <p>The app connect you to the world.</p>
+                  <a href="#">
+                    <img src="./Images/link1.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+        <hr/>
+
+        <!-- Contact -->
+
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="title">Contact Me</h1>
+                <p><img src="./Images/send.jpeg">r363523@gmail.com</p>
+                <p><img src="./Images/phone.jpeg">029838494</p>
+                <div class="social-icons">
+                  <a href=""><img src="./Images/facebook1.jpg"></a>
+                  <a href=""><img src="./Images/twittwe.jpg"></a>
+                  <a href=""><img src="./Images/instagram.jpg"></a>
+
+                </div>
+              </div>
+              <div class="contact-right">
+                <form>
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      <hr/>
+
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Lalitha's Developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+       
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; lalitha.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer", "Web designer"],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
+  </body>
+</html>
